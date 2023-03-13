@@ -5,16 +5,25 @@
 <!-- header slider -->
 <div class="slider-page">
     <div class="slide">
+        <div class="image">
+            <img src="assets/image/slide-1.jpg" alt="">
+        </div>
         <h1 class="slide-in-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Omnis, nemo.</h1>
         <a class="slide-in-bottom" href="#">Learn More</a>
     </div>
     <div class="slide">
+    <div class="image">
+            <img src="assets/image/slide-2.jpg" alt="">
+        </div>
         <h1 class="slide-in-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Omnis, nemo. Lorem ipsum dolor sit amet.</h1>
         <a class="slide-in-bottom" href="#">Learn More</a>
     </div>
     <div class="slide">
+    <div class="image">
+            <img src="assets/image/slide-2.jpg" alt="">
+        </div>
         <h1 class="slide-in-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Omnis, nemo.</h1>
         <a class="slide-in-bottom" href="#">Learn More</a>

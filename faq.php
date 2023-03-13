@@ -265,7 +265,9 @@
                 <div class="text-content">
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
+                        <div class="svg">
                         <i class="fa-solid fa-arrow-up"></i>
+                        </div>
                     </div>
                     <div class="text-sec">
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes.
@@ -277,7 +279,9 @@
                 <div class="text-content">
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
+                        <div class="svg">
                         <i class="fa-solid fa-arrow-up"></i>
+                        </div>
                     </div>
                     <div class="text-sec">
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes.
@@ -289,7 +293,9 @@
                 <div class="text-content">
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
+                        <div class="svg">
                         <i class="fa-solid fa-arrow-up"></i>
+                        </div>
                     </div>
                     <div class="text-sec">
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes.
@@ -298,52 +304,11 @@
                             pellentesque eu, pretium quis.</p>
                     </div>
                 </div>
-                <div class="text-content">
-                    <div class="text-pri">
-                        <p>How and when do I register for courses?</p>
-                        <i class="fa-solid fa-arrow-up"></i>
-                    </div>
-                    
-                    <div class="text-sec">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes.
-                            nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec,
-                            pellentesque eu, pretium quis.</p>
-                    </div>
-                </div>
-                <div class="text-content">
-                    <div class="text-pri">
-                        <p>How and when do I register for courses?</p>
-                        <i class="fa-solid fa-arrow-up"></i>
-                    </div>
-                    <div class="text-sec">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes.
-                            nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec,
-                            pellentesque eu, pretium quis.</p>
-                    </div>
-                </div>
-                <div class="text-content">
-                    <div class="text-pri">
-                        <p>How and when do I register for courses?</p>
-                        <i class="fa-solid fa-arrow-up"></i>
-                    </div>
-                    <div class="text-sec">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes.
-                            nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec,
-                            pellentesque eu, pretium quis.</p>
-                    </div>
-                </div>
-              
-             
             </div>
             <div class="image slide-right">
                 <img src="assets/image/about.jpg" alt="">
             </div>
         </div>
-
-
     </div>
 </section>
 

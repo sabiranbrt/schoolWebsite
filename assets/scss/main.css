@@ -402,6 +402,7 @@ a {
   font-size: 15px;
 }
 .slider-page .slide {
+  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -410,28 +411,15 @@ a {
   color: white;
   gap: 2em;
 }
-.slider-page .slide:nth-child(1) {
-  background: url(../image/slide-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.slider-page .slide:nth-child(2) {
-  background: url(../image/slide-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.slider-page .slide:nth-child(3) {
-  background: url(../image/slide-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.slider-page .slide .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .slider-page .slide h1 {
+  position: absolute;
+  top: 30%;
   width: 50%;
   text-align: center;
 }
@@ -442,6 +430,8 @@ a {
   }
 }
 .slider-page .slide a {
+  position: absolute;
+  top: 55%;
   color: white;
   font-size: 16px;
   text-transform: uppercase;
@@ -1951,6 +1941,7 @@ a {
 @media (max-width: 768px) {
   .message .columns {
     flex-direction: column;
+    gap: 0;
   }
 }
 .message .columns > *:nth-child(1) {
@@ -3238,6 +3229,11 @@ a {
 .tab-list {
   padding-block: 8em 2em;
 }
+@media (max-width: 768px) {
+  .tab-list {
+    padding-top: 5em;
+  }
+}
 .tab-list ul {
   display: flex;
   align-items: center;
@@ -4193,7 +4189,7 @@ a {
 }
 .donation-form .donar-info .form-payment-info .payment {
   background: #1967D5;
-  padding: 1em 2em;
+  padding: 2em 2em;
   width: 500px;
 }
 @media (max-width: 768px) {
@@ -4914,13 +4910,12 @@ a {
   color: #000000;
   font-weight: 600;
 }
-.faq-primary .wrapper .content .text-content .text-pri svg {
+.faq-primary .wrapper .content .text-content .text-pri .svg svg {
   color: #f39c12;
   transition: transform 0.5s ease-in;
 }
 .faq-primary .wrapper .content .text-content .text-sec {
-  max-height: 0;
-  overflow: hidden;
+  display: none;
 }
 .faq-primary .wrapper .content .text-content::after {
   content: "";
@@ -4931,9 +4926,9 @@ a {
   opacity: 0.3;
 }
 .faq-primary .wrapper .content .text-content.active .text-sec {
-  max-height: 100%;
+  display: block;
 }
-.faq-primary .wrapper .content .text-content.active svg {
+.faq-primary .wrapper .content .text-content.active .svg {
   transform: rotate(180deg);
 }
 .faq-primary .wrapper .image img {
