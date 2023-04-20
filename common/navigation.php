@@ -20,7 +20,12 @@
                     <li><a class="underline" href="index.php">Home</a></li>
                     <li><a class="underline" href="#">About Us</a>
                         <ul class="menu-list" role="list">
-                            <li class="inner-shadow"><a href="principal.php">Message From</a></li>
+                            <li class="inner-shadow hov"><a href="#">Message From</a>
+                            <ul class="inner-menu-list" role="list">
+                                    <li class="inner-shadow"><a href="principal.php">Principal</a></li>
+                                    <li class="inner-shadow"><a href="chairman.php">Chairman</a></li>
+                                </ul>
+                        </li>
                             <li class="inner-shadow"><a href="vission.php">Vision & Mission</a></li>
                             <li class="inner-shadow"><a href="gallery.php">Gallery</a></li>
                             <li class="inner-shadow"><a href="team.php">Our Team</a></li>

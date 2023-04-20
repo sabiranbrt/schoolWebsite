@@ -1,5 +1,4 @@
 <?php include 'common/header.php'; ?>
-
 <?php include 'common/navbar-top.php'; ?>
 <?php include 'common/navigation.php'; ?>
 
@@ -119,7 +118,6 @@
             </div>
         </div>
     </div>
-
 </section>
 
 

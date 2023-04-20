@@ -10,7 +10,7 @@
             <a href="index.php">Home</a>
             <a href="#">About Us</a>
             <a href="#">Message From</a>
-            <span>Principal</span>
+            <span>Chairman</span>
         </div>
     </div>
 </section>
@@ -43,7 +43,7 @@
             <div class="right-column zoom-in">
 
                 <div class="wrapper active"  id="principal" data-tab-content>
-                    <h3 class="zoom-in">Principal's Message</h3>
+                    <h3 class="zoom-in">Chairman's Message</h3>
                     <div class="text-content">
                         <img src="assets/image/principal.jpg" alt="">
                         <p>Welcome to Lincoln School, Kathmandu, Nepal, a school deeply
@@ -74,7 +74,7 @@
                             Lincoln enjoys a strong community-centered reputation and is more than simply an academic institution. We care deeply about the social, emotional, and physical development of each of our students, as well as the success of our alumni. We also value an open and honest relationship with our parents, where they are active partners in the growth of their children.
                             On behalf of the entire Lincoln community, I look forward to assisting you in your interest in the school, and in your transition to our community.</p>
                             <p class="mg">Jhon Wick</p>
-                            <span>Principal</span>
+                            <span>Chairman</span>
                     </div>
                     
                    

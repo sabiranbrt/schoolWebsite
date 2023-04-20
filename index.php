@@ -13,7 +13,7 @@
         <a class="slide-in-bottom" href="#">Learn More</a>
     </div>
     <div class="slide">
-    <div class="image">
+        <div class="image">
             <img src="assets/image/slide-2.jpg" alt="">
         </div>
         <h1 class="slide-in-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -21,7 +21,7 @@
         <a class="slide-in-bottom" href="#">Learn More</a>
     </div>
     <div class="slide">
-    <div class="image">
+        <div class="image">
             <img src="assets/image/slide-2.jpg" alt="">
         </div>
         <h1 class="slide-in-top">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -33,21 +33,163 @@
 <!-- about Us -->
 <section class="about-us">
     <div class="container">
-        <div class="about-detail">
-            <div class="photo slide-left">
-                <img src="assets/image/photo-1.jpg" alt="">
+        <div class="about-row">
+            <div class="about-detail">
+                <div class="photo slide-left">
+                    <img src="assets/image/photo-1.jpg" alt="">
+                </div>
+                <div class="detail slid e-right">
+                    <h4>Welcome to</h4>
+                    <h2>Lincoln School Nepal</h2>
+                    <p>Lincoln School is a multicultural community
+                        in the foothills of the Himalayas that inspires in each student
+                        a passion for learning, the confidence and competence to pursue
+                        their dreams, and the commitment to serve as a compassionate
+                        global citizen and leader, who is a steward of the environment.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, cumque!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quam officia quaerat dolorum doloremque! Vitae magni, velit quisquam nesciunt quidem non odit ducimus placeat. Recusandae doloribus aliquam exercitationem laboriosam id.</p>
+                    <a href="about.php">More</a>
+                </div>
             </div>
-            <div class="detail slide-right">
-                <h4>Welcome to</h4>
-                <h2>Lincoln School Nepal</h2>
-                <p>Lincoln School is a multicultural community
-                    in the foothills of the Himalayas that inspires in each student
-                    a passion for learning, the confidence and competence to pursue
-                    their dreams, and the commitment to serve as a compassionate
-                    global citizen and leader, who is a steward of the environment.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, cumque!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas quam officia quaerat dolorum doloremque! Vitae magni, velit quisquam nesciunt quidem non odit ducimus placeat. Recusandae doloribus aliquam exercitationem laboriosam id.</p>
-                <a href="#">More</a>
+            <div class="notice-point">
+                <div class="news-head">
+                    <p>Notice</p>
+                    <a href="notice.php">See All</a>
+                </div>
+                <div class="notice-board">
+                    <div class="notice">
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                        <div class="notice_list">
+                            <div class="logo">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Oct 25 @ 5pm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -205,7 +347,7 @@
             <div class="even-cols">
                 <div class="news-head slide-in-top">
                     <p>Events</p>
-                    <a href="#">See All</a>
+                    <a href="#"> See All</a>
                 </div>
                 <div class="events slide-left">
                     <div class="wrapper event-slider">
@@ -265,10 +407,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-
 </section>
 
 <!-- counts -->
@@ -335,7 +474,7 @@
     <div class="even-columns slide-in-bottom">
         <div class="parent-photo">
             <div class="img">
-                <img src="assets/image/staff.jpg" data-tab-target="#photo-1" alt="">
+                <img class="active" src="assets/image/staff.jpg" data-tab-target="#photo-1" alt="">
                 <img src="assets/image/staff.jpg" data-tab-target="#photo-2" alt="">
                 <img src="assets/image/staff.jpg" data-tab-target="#photo-3" alt="">
                 <img src="assets/image/staff.jpg" data-tab-target="#photo-4" alt="">
@@ -354,7 +493,7 @@
         </div>
         <div class="rows">
             <div class="cols">
-                <div class="gallery-list slide-left"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <div class="gallery-list slide-left" onclick="openModal();currentSlide(1)" class="hover-shadow">
                     <div class="image">
                         <a href="#gal"><img src="assets/image/gallery1.jpg" alt=""></a></a>
                     </div>
@@ -388,8 +527,8 @@
                 </div>
             </div>
         </div>
-         <!-- The Modal/Lightbox -->
-         <div id="myModal" class="modal">
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="modal-content">
 
@@ -411,8 +550,8 @@
 
                     <img src="assets/image/gallery2.jpg" style="width:100%">
                 </div>
-               
-              
+
+
                 <!-- Next/previous controls -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>

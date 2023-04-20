@@ -1,4 +1,23 @@
 
+const tabs = document.querySelectorAll('[data-tab-target]');
+const tabContents = document.querySelectorAll('[data-tab-content]');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const target = document.querySelector(tab.dataset.tabTarget)
+    tabContents.forEach(tabContent => {
+      tabContent.classList.remove('active');
+    })
+    tabs.forEach(tab => {
+      tab.classList.remove('active');
+    })
+    tab.classList.add('active');
+    target.classList.add('active');
+  });
+});
+
+
+
 // faq 
 const faqs = document.querySelectorAll('.text-content');
 faqs.forEach((faq) =>{
@@ -52,7 +71,6 @@ const zooms = document.querySelectorAll('.zoom-in');
 const appearOptions = {
   threshold: 0,
   rootMargin: "0px 0px -200px 0px"
-  
 };
 
 const appearOnScroll = new IntersectionObserver(function(
@@ -100,30 +118,16 @@ jQuery(document).ready(function(){
 });
 
 
+
+
+
+  
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
-
-  const tabs = document.querySelectorAll('[data-tab-target]')
-  const tabContents = document.querySelectorAll('[data-tab-content]')
-  
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const target = document.querySelector(tab.dataset.tabTarget)
-      tabContents.forEach(tabContent => {
-        tabContent.classList.remove('active')
-      })
-      tabs.forEach(tab => {
-        tab.classList.remove('active')
-      })
-      tab.classList.add('active')
-      target.classList.add('active')
-    })
-  })
-
 
 // Get the modal
 var modal = document.getElementById("myModal");

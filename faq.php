@@ -16,13 +16,11 @@
 <section class="faq-tabs">
     <div class="container">
         <h2 class="slide-in-bottom">Most Asked Question</h2>
-        <!-- <span></span> -->
-
         <div class="tabs-list slide-in-bottom">
             <ul role="list">
-                <li class="active" data-tab-target="#kindergarden">Kindergarden</li>
-                <li data-tab-target="#middleschool">Middle School</li>
-                <li data-tab-target="#highschool">High School</li>
+                <li class="active" data-tab-target="#faq-1">Kindergarden</li>
+                <li data-tab-target="#faq-2">Middle School</li>
+                <li data-tab-target="#faq-3">High School</li>
             </ul>
         </div>
     </div>
@@ -30,7 +28,7 @@
 
 <section class="faq">
     <div class="container">
-        <div class="faq-list  active" id="kindergarden" data-tab-content>
+        <div class="faq-list active" id="faq-1" data-tab-content>
             <div class="rows">
                 <div class="logo">
                     <i class="fa-solid fa-face-smile"></i>
@@ -104,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <div class="faq-list " id="middleschool" data-tab-content>
+        <div class="faq-list" id="faq-2" data-tab-content>
             <div class="rows">
                 <div class="logo">
                     <i class="fa-solid fa-face-smile"></i>
@@ -178,7 +176,7 @@
                 </div>
             </div>
         </div>
-        <div class="faq-list " id="highschool" data-tab-content>
+        <div class="faq-list" id="faq-3" data-tab-content>
             <div class="rows">
                 <div class="logo">
                     <i class="fa-solid fa-face-smile"></i>
@@ -253,7 +251,6 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <section class="faq-primary">
